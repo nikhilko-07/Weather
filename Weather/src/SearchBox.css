@@ -1,0 +1,116 @@
+.SearchContainer{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*box-shadow: 0 0 5px 0 ;*/
+    /*backdrop-filter: blur(8px);*/
+
+    /*border: none;*/
+}
+.Heading{
+    text-align: center;
+}
+.Search{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.Search input{
+    width: 90%;
+    height: 3rem;
+    border-radius: 2rem;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    border: none;
+}
+.Search button{
+    width: 17%;
+    border-radius: 50%;
+    height: 100%;
+    border: none;
+}
+.error{
+    color: red;
+    display: block;
+    z-index: 999;
+    margin-top: 15rem;
+
+}
+
+/* I Phone 7 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .Search{
+        height: 15vh;
+    }
+    .Search input{
+        width: 60%;
+    }
+    .Search button{
+        height: 70%;
+    }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px) {
+    .Search{
+        height: 15vh;
+    }
+    .Search input{
+        width: 60%;
+    }
+    .Search button{
+        height: 50%;
+    }
+}
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px) {
+    .Search{
+        height: 15vh;
+    }
+    .Search input{
+        width: 60%;
+    }
+    .Search button{
+        height: 40%;
+        width: 15%;
+    }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .Search{
+        height: 15vh;
+    }
+    .Search input{
+        width: 60%;
+    }
+    .Search button{
+        height: 45%;
+        width: 15%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Search button{
+        width: 18%;
+    }
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Search{
+        height: 15vh;
+    }
+    .Search input{
+        width: 60%;
+    }
+    .Search button{
+        height: 55%;
+        width: 15%;
+    }
+}

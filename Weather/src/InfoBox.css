@@ -1,0 +1,190 @@
+.InfoContainer{
+    height: 80%;
+}
+.Emoji{
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
+}
+.MainContainer{
+    height: 30%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.Temprature{
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.City{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.normalInfo{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: lighter;
+}
+.Humidity p{
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.WindSpeed p{
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+/* I Phone 7 */
+@media (min-width: 0px) and (max-width: 320px) {
+
+    .Emoji{
+        height: 8rem;
+    }
+    .Temprature{
+        font-size: 2rem;
+    }
+    .City{
+        font-size: 2rem;
+    }
+    .normalInfo{
+        font-size: 1rem;
+    }
+    .Humidity p{
+        font-size: 1rem;
+    }
+    .WindSpeed p{
+        font-size: 1rem;
+    }
+}
+
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px) {
+    .Emoji{
+        height: 8rem;
+    }
+    .Temprature{
+        font-size: 2.5rem;
+    }
+    .City{
+        font-size: 2.5rem;
+    }
+    .normalInfo{
+        margin-top: 5%;
+        font-size: 1.3rem;
+    }
+    .Humidity p{
+        font-size: 1.3rem;
+    }
+    .WindSpeed p{
+        font-size: 1.3rem;
+    }
+}
+
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px) {
+    .Emoji{
+        height: 10rem;
+    }
+    .Temprature{
+        margin-top: 5%;
+        font-size: 2.5rem;
+    }
+    .City{
+        font-size: 2.5rem;
+    }
+    .normalInfo{
+        font-size: 1.3rem;
+    }
+    .Humidity p{
+        font-size: 1.3rem;
+    }
+    .WindSpeed p{
+        font-size: 1.3rem;
+    }
+}
+
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+    .Emoji{
+        height: 10rem;
+    }
+    .Temprature{
+        font-size: 2.5rem;
+    }
+    .City{
+        font-size: 2.5rem;
+    }
+    .normalInfo{
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+    .Humidity p{
+        font-size: 1.5rem;
+    }
+    .WindSpeed p{
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .Temprature{
+        font-size: 3rem;
+    }
+    .City{
+        font-size: 3rem;
+    }
+    .normalInfo{
+        font-size: 2rem;
+    }
+    .Humidity p{
+        font-size: 2rem;
+    }
+    .WindSpeed p{
+        font-size: 2rem;
+    }
+}
+
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Emoji{
+        height: 6rem;
+    }
+    .Temprature{
+        font-size: 2rem;
+    }
+    .City{
+        font-size: 2rem;
+    }
+    .normalInfo{
+        font-size: 1.5rem;
+    }
+    .Humidity p{
+        font-size: 1.5rem;
+    }
+    .WindSpeed p{
+        font-size: 1.5rem;
+    }
+}
